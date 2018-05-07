@@ -1,0 +1,75 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+*.log
+searchandreplace/
+searchandreplace.php
+.idea
+
+# wordpress specific
+Thumbs.db
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/*
+wp-content/cache/supercache/*
+
+wp-content/cache/
+wp-content/backups/
+sitemap.xml
+sitemap.xml.gz
+
+# ignore these plugins from the core
+wp-content/plugins/hello.php
+wp-content/plugins/akismet/
+
+# ignore specific themes
+wp-content/themes/twenty*/
+
+# ignore node/grunt dependency directories
+node_modules/
+
+# large/disallowed file types
+# a CDN should be used for these
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi
