@@ -125,7 +125,7 @@ let webpackConfig = {
     moduleExtensions: ['-loader'],
   },
   externals: {
-    jquery: 'jQuery',
+    jquery: 'jQuery'    
   },
   plugins: [
     new CleanPlugin([config.paths.dist], {

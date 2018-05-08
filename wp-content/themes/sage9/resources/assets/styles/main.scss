@@ -10,6 +10,7 @@
  * @see https://github.com/webpack-contrib/sass-loader#imports
  */
 // @import "~some-node-module";
+@import "~uikit/dist/css/uikit.css";
 
 /** Import theme styles */
 @import "common/global";

@@ -4,6 +4,12 @@ import 'jquery';
 // Import everything from autoload
 import "./autoload/**/*"
 
+import UIkit from 'uikit';
+import Icons from 'uikit/dist/js/uikit-icons';
+
+// loads the Icon plugin
+UIkit.use(Icons);
+
 // import local dependencies
 import Router from './util/Router';
 import common from './routes/common';
