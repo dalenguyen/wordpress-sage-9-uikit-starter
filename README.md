@@ -9,6 +9,24 @@ This is a starter respository that boostraps your development process with prelo
 git clone https://github.com/dalenguyen/wordpress-sage-9-uikit-starter
 ```
 
+# Start Building 
+
+Run these script commands within your theme directory:
+
+Install all the necessary dependencies
+
+```
+yarn 
+```
+
+Start building assets
+
+```
+yarn build — Compile and optimize the files in your assets directory
+yarn build:production — Compile assets for production
+yarn start — Compile assets when file changes are made, start Browersync session
+```
+
 Happy Wordpress custom theme development 
 
 # Before getting to development 
